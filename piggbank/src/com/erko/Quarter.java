@@ -2,15 +2,15 @@ package com.erko;
 
 public class Quarter extends Coin
  {
-    public Quarter(int count)
-     {
-        super(count);
+    public Quarter(int count, int withdraw)
+    {
+        super(count, withdraw);
         value = 0.25;
     }
 
     @Override
     public String coinValue() {
-        return " Number of Quarters -" + count;
+        return count + " Quarter";
     }
 
     @Override

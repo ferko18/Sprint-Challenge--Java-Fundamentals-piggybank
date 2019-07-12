@@ -1,16 +1,16 @@
 package com.erko;
 public class Dime extends Coin
 {
-    public Dime(int count)
+    public Dime(int count, int withdraw)
     {
-        super(count);
+        super(count, withdraw);
         value = 0.10;
     }
 
     @Override
     public String coinValue()
     {
-        return "Number of Dimes - " + count;
+        return  count + " Dime";
     }
 
     @Override

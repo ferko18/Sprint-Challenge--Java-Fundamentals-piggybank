@@ -1,16 +1,16 @@
 package com.erko;
 
 public class Nickel extends Coin {
-    
-    public Nickel(int count)
-     {
-        super(count);
+
+    public Nickel(int count, int withdraw)
+    {
+        super(count, withdraw);
         value = 0.05;
     }
 
     @Override
     public String coinValue() {
-        return " Number of Nickels -" + count;
+        return   count + " Nickel";
     }
 
     @Override

@@ -2,15 +2,15 @@ package com.erko;
 
 public class Penny extends Coin
  {
-    public Penny(int count)
-     {
-        super(count);
+    public Penny(int count, int withdraw)
+    {
+        super(count, withdraw);
         value = 0.01;
     }
 
     @Override
     public String coinValue() {
-        return " Number of Pennies -" + count;
+        return  count + " penny";
     }
 
     @Override
