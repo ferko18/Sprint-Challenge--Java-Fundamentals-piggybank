@@ -9,7 +9,7 @@ public abstract class Coin {
         this.count = count;
 
     }
-//toal value method
+//toal value public method
     public double getValue() {
         return value * count;
     }
