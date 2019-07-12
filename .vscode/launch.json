@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "com.erko.Main",
+            "projectName": "Sprint-Challenge--Java-Fundamentals-piggybank_e38059bf"
+        }
+    ]
+}
