@@ -1,7 +1,9 @@
 package com.erko;
 
-public class Penny extends Coin {
-    public Penny(int count) {
+public class Penny extends Coin
+ {
+    public Penny(int count)
+     {
         super(count);
         value = 0.01;
     }

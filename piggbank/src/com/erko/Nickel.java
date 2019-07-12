@@ -1,7 +1,9 @@
 package com.erko;
 
 public class Nickel extends Coin {
-    public Nickel(int count) {
+    
+    public Nickel(int count)
+     {
         super(count);
         value = 0.05;
     }
