@@ -32,18 +32,19 @@ public class Main {
         for (Coin c : piggyBank) {
             if (c.count < c.withdraw) {
                 System.out.println("\nnot enough coin");
+                break;
             } else{
                  totalwithdraw = totalwithdraw - c.getWithdraw();
             }
            
         }
 
-        DecimalFormat fpw = new DecimalFormat("$###,###.00");
-        System.out.println("\namount withdrawn " + fpw.format(totalwithdraw));
+        
+        System.out.println("\namount withdrawn " + fp.format(totalwithdraw));
 
         double currentBalance = totaldeposited + totalwithdraw;
 
-        System.out.println("\ncurrent balance " + fpw.format(currentBalance));
+        System.out.println("\ncurrent balance " + fp.format(currentBalance));
 
     }
 }
